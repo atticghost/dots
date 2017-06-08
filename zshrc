@@ -82,6 +82,12 @@ export EDITOR=vim
 # for Rust (is this still used in 2019?)
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
 
+# for Hadoop
+export PATH=~/hadoop/hadoop-2.7.3/bin:$PATH
+export PATH=~/hadoop/hive-1.2.2/bin:$PATH
+export JAVA_HOME=/usr/lib/jvm/java-9-openjdk-amd64
+export HADOOP_USER_NAME=weachockjr
+
 # $PATH nonsense
 export PATH=./:$PATH
 export PATH=~/bin:$PATH
