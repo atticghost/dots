@@ -170,16 +170,6 @@ Copy the file to $HOME/.config/openbox/ instead. -->
         <command>scrot</command>
       </action>
     </keybind>
-    <keybind key="H-Print">
-      <action name="Execute">
-        <command>sh -c 'recordmydesktop -x 1920 -y 18 --width 1920 --height 1038 --no-sound &amp;&amp; aplay /home/john/dots/ping.wav'</command>
-      </action>
-    </keybind>
-    <keybind key="H-Pause">
-      <action name="Execute">
-        <command>pkill recordmydesktop</command>
-      </action>
-    </keybind>
     <keybind key="A-Print">
       <action name="Execute">
         <command>scrot -u -b</command>
@@ -453,14 +443,15 @@ Copy the file to $HOME/.config/openbox/ instead. -->
     <!-- commands -->
     <keybind key="C-S-q">
       <action name="Execute">
-        <command>/home/john/dots/lock.sh</command>
+        <command>/home/weachockjr/dots/lock.sh</command>
       </action>
     </keybind>
     <keybind key="W-l">
       <action name="Execute">
-        <command>/home/john/dots/lock.sh</command>
+        <command>/home/weachockjr/dots/lock.sh</command>
       </action>
     </keybind>
+
 
     <!-- shortcuts -->
     <keybind key="C-S-r">
@@ -505,19 +496,24 @@ Copy the file to $HOME/.config/openbox/ instead. -->
     </keybind>
 
     <!-- volume -->
-    <keybind key="W-c">
+    <keybind key="W-z">
       <action name="Execute">
-        <command>/home/john/dots/volume.sh plus</command>
+        <command>amixer sset Master 10</command>
       </action>
     </keybind>
     <keybind key="W-x">
       <action name="Execute">
-        <command>/home/john/dots/volume.sh minus</command>
+        <command>amixer sset Master 15</command>
       </action>
     </keybind>
-    <keybind key="W-z">
+    <keybind key="W-c">
       <action name="Execute">
-        <command>/home/john/dots/volume.sh mute</command>
+        <command>amixer sset Master 25</command>
+      </action>
+    </keybind>
+    <keybind key="W-v">
+      <action name="Execute">
+        <command>amixer sset Master 45</command>
       </action>
     </keybind>
 
