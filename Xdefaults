@@ -40,14 +40,14 @@
 *cursorColor: #f0f3f2
 
 ! urxvt settings
-URxvt*font: xft:Fira Mono:size=11
-URxvt*boldFont: xft:Fira Mono:size=11
+URxvt*font: xft:ProggyCleanTTSZ:size=12:antialias=false
+URxvt*boldFont: xft:ProggyCleanTTSZ:size=12:antialias=false
 URxvt*geometry: 90x24
 URxvt*urlLauncher: google-chrome
 URxvt*scrollBar: false
 URxvt*scrollColor: #000000
 URxvt*searchable-scrollback: CM-s
-URxvt*letterSpace: -1
+URxvt*letterSpace: 0
 
 ! URxvt.perl-ext-common: default,clipboard
 ! URxvt.keysym.M-c: perl:clipboard:copy
@@ -59,3 +59,11 @@ URxvt.keysym.C-2: command:\033]710;xft:ProggyCleanTTSZ:size=24:antialias=false\0
 
 URxvt*iso14755: False
 URxvt*iso14755_52: False
+
+Xft.lcdfilter: lcddefault
+Xft.antialias: true
+Xft.autohint: 0
+Xft.hinting: true
+Xft.hintstyle: hintslight
+Xft.rgba: rgb
+Xft.dpi: 96
