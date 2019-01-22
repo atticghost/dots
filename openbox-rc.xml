@@ -464,7 +464,7 @@ Copy the file to $HOME/.config/openbox/ instead. -->
     </keybind>
     <keybind key="C-A-x">
       <action name="Execute">
-        <command>alacritty</command>
+        <command>/home/weachockjr/alacritty/target/release/alacritty</command>
       </action>
     </keybind>
     <keybind key="C-A-c">
